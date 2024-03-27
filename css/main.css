@@ -48,5 +48,30 @@ main p{
     left: 50%;
     top: -14px;
     transform: translateX(-50%);
+    z-index: 10;
 }
 
+.oper{
+    position:fixed;
+    top: 2;
+    left: 0;
+}
+
+.rel_p{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.stick_p{
+    position: sticky ;
+    background-color: rgba(179, 56, 140, 0.53);
+    top: 0;
+}
+
+.bird{
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    z-index: 9;
+}
